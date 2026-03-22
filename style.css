@@ -1,0 +1,199 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+#imagen-juego {
+    width: 80vw;
+    height: 25vh;
+    margin: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#jugadores {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 3%;
+}
+
+#un-jugador {
+    background-color: rgb(197, 221, 220);
+    width: 30%;
+    height: 45vh;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    border-radius: 10%;
+    box-shadow: 8px 5px 5px rgb(169, 198, 198);
+}
+#un-jugador:hover{
+    background-color: rgb(184, 216, 216);
+}
+
+#icono-maquina {
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.566);
+
+}
+
+#texto-maquina {
+    background-color: rgb(179, 211, 211);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#dos-jugadores{
+    background-color: rgb(134, 235, 235);
+    width: 30%;
+    height: 45vh;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    border-radius: 10%;
+    box-shadow: 8px 5px 5px rgb(169, 198, 198);
+}
+
+#dos-jugadores:hover{
+    background-color: rgb(124, 224, 224);
+}
+
+#icono-multijugador {
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.566);
+}
+
+#texto-multijugador {
+    font-size: 20px;
+    background-color: rgb(123, 220, 220);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#empate{
+    text-align: center;
+    margin-top: 1%;
+}
+
+#contador-empate{
+    text-align: center;
+    margin-top: -1%;
+    margin-bottom: 0;
+}
+
+#jugadores.hide{
+    display: none;
+}
+
+.hide{
+    transform: scale(0);
+}
+
+.show {
+    transform: scale(1);
+}
+
+#juego{
+    display: flex;
+    justify-content: center;
+    margin: (3%, 0, 0, 0);
+    width: 100%;
+    gap: 5%
+    
+}
+
+#jugador1 {
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+    width: 30%;
+    height: 55vh;
+    background-color: rgb(202, 248, 255);
+    border-radius: 10%;
+}
+#judador-1{
+    text-align: center;
+    margin: 0;
+}
+
+#contador-jugador1{
+    text-align: center;
+    margin: 0;
+}
+
+#jugador2 {
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+    width: 30%;
+    height: 55vh;
+    background-color: rgb(202, 248, 255);
+    border-radius: 10%;
+}
+#judador-2{
+    text-align: center;
+    margin: 0;
+}
+
+#contador-jugador2{
+    text-align: center;
+    margin: 0;
+}
+
+#botones {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+#botones2 {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+#img-jugador1{
+    width: 20vw;
+    height: 25vh;
+}
+
+#img-jugador2{
+    width: 20vw;
+    height: 25vh;
+}
+
+#boton-piedra{
+    width: 40px;
+    height: 40px;
+}
+
+#boton-papel{
+    width: 40px;
+    height: 40px;
+}
+#boton-tijeras{
+    width: 40px;
+    height: 40px;
+}
+#boton-piedra2{
+    width: 40px;
+    height: 40px;
+}
+
+#boton-papel2{
+    width: 40px;
+    height: 40px;
+}
+#boton-tijera2{
+    width: 40px;
+    height: 40px;
+}
